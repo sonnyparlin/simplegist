@@ -1,6 +1,6 @@
 import json
 import requests
-from config import BASE_URL, GIST_URL
+from .config import BASE_URL, GIST_URL
 
 class Comments:
 	def __init__(self, gist):
